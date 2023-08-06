@@ -129,11 +129,39 @@ docker system COMMAND
 **Network and Volume Management:**
 
 ```plaintext
-# Manage networks
-docker network COMMAND
+# Create a new network
+docker network create NETWORK_NAME
 
-# Manage volumes
-docker volume COMMAND
+# Remove one or more networks
+docker network rm NETWORK
+
+# Connect a container to a network
+docker network connect NETWORK CONTAINER
+
+# Disconnect a container from a network
+docker network disconnect NETWORK CONTAINER
+
+# List networks
+docker network ls
+
+# Display detailed information about a network
+docker network inspect NETWORK
+
+# Create a new volume
+docker volume create VOLUME_NAME
+
+# Remove one or more volumes
+docker volume rm VOLUME
+
+# List volumes
+docker volume ls
+
+# Display detailed information about a volume
+docker volume inspect VOLUME
+
+# Prune unused volumes
+docker volume prune
+
 ```
 
 **Swarm and Service Management:**
