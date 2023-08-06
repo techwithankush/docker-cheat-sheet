@@ -1,4 +1,4 @@
-Certainly! Here's an example of a Docker command executed in a typical workflow, along with an explanation:
+Here's an example of a Docker command executed in a typical workflow, along with an explanation:
 
 **Scenario:** Creating a new Docker container from an image and running a simple web server.
 
